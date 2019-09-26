@@ -1,2 +1,2 @@
 # style-components
-A collection of web development components using CSS and sometimes JavaScript. Complete with HTML examples and demos.
+A collection of web development components using CSS and JavaScript. Complete with HTML examples.
