@@ -11,7 +11,7 @@ function addGhostButtons() {
        b.innerHTML = buttons[i].innerHTML;
        buttons[i].appendChild(b);
      }
-     const color = getElementColor(buttons[i], "ghost-");
+     const color = getElementColor(buttons[i]);
      buttons[i].style.setProperty("--buttonColor", color);
    }
  }

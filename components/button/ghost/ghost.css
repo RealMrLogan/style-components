@@ -6,14 +6,12 @@
    --borderWidth: 5;
    /* Use inline style to override this value */
    --buttonColor: #007315;
-   --fontSize: 3;
    --horizontalPadding: 16;
    --verticalPadding: 8;
    background: transparent;
    border: calc(var(--borderWidth) * 1px) solid var(--buttonColor);
    color: var(--buttonColor);
    cursor: pointer;
-   font-size: calc(var(--fontSize) * 1rem);
    font-weight: bold;
    outline: transparent;
    padding: calc(var(--verticalPadding) * 1px) calc(var(--horizontalPadding) * 1px);
