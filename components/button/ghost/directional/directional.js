@@ -1,7 +1,7 @@
 // Great tutorial by the creator of this button here: https://css-tricks.com/ghost-buttons-with-directional-awareness-in-css/
 
-function addGhostButtons() {
-   const buttons = document.getElementsByClassName("button-ghost");
+function addDirectionalGhostButtons() {
+   const buttons = document.getElementsByClassName("button-ghost-directional");
    // make all the buttons with this class a ghost button
    for (let i = 0; i < buttons.length; i++) {
      for (let j = 0; j < 4; j++) {
@@ -16,4 +16,4 @@ function addGhostButtons() {
    }
  }
 
- addGhostButtons();
+ addDirectionalGhostButtons();

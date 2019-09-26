@@ -1,5 +1,5 @@
 const colors = {
-   "color-default": {
+   "default": {
       name: "Forest Green",
       base: "#007315"
    },

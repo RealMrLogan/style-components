@@ -1,0 +1,13 @@
+.button-ghost-simple {
+   border: 5px solid var(--buttonColor);
+   background-color: white;
+   color: var(--buttonColor);
+   transition: 400ms;
+   cursor: pointer;
+   padding: 8px 16px;
+}
+
+.button-ghost-simple:hover {
+   background-color: var(--buttonColor);
+   color: white;
+}
